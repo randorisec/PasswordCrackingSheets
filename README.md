@@ -1,8 +1,12 @@
 # Password Cracking Sheets
 You've got a hash, nice ! But if you can't pass it (PtH) how long will it take to crack it ?
-A few seconds if the password is in wordlists (e.g: rockyou) or a bit longer if you use rules but it can take aaaaages if you use bruteforce.
+A few seconds if the password is inside a wordlist (e.g: rockyou) or a bit longer if you use rules but it can take aaaaages if you use bruteforce.
 
-We did a few sheets showing real cracking values (not bench) for NetNTLMv2, NTLM, MD5 and SHA512 with hashcat on a 8 GTX1080 GPU box.
+We did a few sheets with hashcat on a 8 GTX1080 GPU box showing real cracking values (not bench) for:
+1. [NetNTLMv2](https://github.com/randorisec/PasswordCrackingSheets#netntlmv2)
+2. [NTLM](https://github.com/randorisec/PasswordCrackingSheets#ntlm) 
+3. [MD5](https://github.com/randorisec/PasswordCrackingSheets#md5)
+4. [SHA512](https://github.com/randorisec/PasswordCrackingSheets#sha512)
 
 For each sheet:
 1. The first line is the number of characters of the plaintext password.
